@@ -1,0 +1,17 @@
+{
+    "name": "vaishali/assignment1",
+    "description": "This is first assignment to test the created package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vaishali Tijge",
+            "email": "vtijge@xento.com"
+        }
+    ],
+	 "autoload": {
+        "psr-4": {"vaishali\\HelloWorld\\": "src/"}
+    },
+    "require": {
+        "vaishali/helloworld": "1.0.2"
+    }
+}

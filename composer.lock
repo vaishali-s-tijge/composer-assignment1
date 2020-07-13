@@ -1,0 +1,48 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b56e7625f6fe9315e962e27dab8e6cf8",
+    "packages": [
+        {
+            "name": "vaishali/helloworld",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaishali-s-tijge/vaishali-hello-composer.git",
+                "reference": "2406687d6fb4f6278932858c4d5d260dda89926c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaishali-s-tijge/vaishali-hello-composer/zipball/2406687d6fb4f6278932858c4d5d260dda89926c",
+                "reference": "2406687d6fb4f6278932858c4d5d260dda89926c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "vaishali\\HelloWorld\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Vaishali Tijge",
+                    "email": "vtijge@xento.com"
+                }
+            ],
+            "description": "This is a test package created as assignement for composer",
+            "time": "2020-07-13T05:17:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
